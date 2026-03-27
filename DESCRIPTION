@@ -1,5 +1,5 @@
 Package: spIBDerverse2
-Title: Utilities to look at IBD networks
+Title: spIBDverse functions and shiny apps
 Version: 0.0.0.9000
 Authors@R: 
     c(
@@ -25,7 +25,7 @@ Authors@R:
       comment = c(ORCID = "0000-0003-2475-2007")
     )
     )
-Description: Visualisation, and ERGMS for IBD networks. It also includes the Ringbauer matrix.
+Description: Description: A variety of functions and shiny apps to help researchers deal with IDB derived networks.
 License: MIT + file LICENSE
 Imports: 
     config,
