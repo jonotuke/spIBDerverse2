@@ -1,0 +1,41 @@
+Package: spIBDerverse2
+Title: Utilities to look at IBD networks
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+    person(
+      given = "Jono", 
+      family = "Tuke", 
+      email = "simon.tuke@adelaide.edu.au", 
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-1688-8951")
+    ), 
+    person(
+      given = "Adam B.", 
+      family = "Rohrlach",
+      email = "adam.rohrlach@adelaide.edu.au", 
+      role = "aut",
+      comment = c(ORCID = "0000-0002-4204-5018")
+    ), 
+    person(
+      given = "Wolfgang", 
+      family = "Haak",
+      email = "wolfgang_haak@eva.mpg.de", 
+      role = "aut",
+      comment = c(ORCID = "0000-0003-2475-2007")
+    )
+    )
+Description: Visualisation, and ERGMS for IBD networks. It also includes the Ringbauer matrix.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
